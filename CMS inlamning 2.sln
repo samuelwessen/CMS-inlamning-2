@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS inlamning 2", "CMS inlamning 2\CMS inlamning 2.csproj", "{D8F267B3-10A7-4866-AC39-4D9C3DFB33DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8F267B3-10A7-4866-AC39-4D9C3DFB33DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F267B3-10A7-4866-AC39-4D9C3DFB33DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F267B3-10A7-4866-AC39-4D9C3DFB33DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F267B3-10A7-4866-AC39-4D9C3DFB33DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64F46538-6F4A-4723-80BE-A3498A291849}
+	EndGlobalSection
+EndGlobal

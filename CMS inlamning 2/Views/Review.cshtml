@@ -1,0 +1,35 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Review>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = "Master.cshtml";
+}
+
+
+
+@{
+	var selection = Umbraco.Content(1081)
+    .ChildrenOfType("reviewArticle")
+    .Where(x => x.IsVisible())
+    .OrderByDescending(x => x.CreateDate);
+}
+
+<div class="grid-container">
+    	@foreach (var item in selection)
+	{
+		<div class="grid-item">
+		    <div>@item.Value("articleTeaserTitle")</div>
+			<div class="teaser-image">
+				@{
+				var image = item.Value<IPublishedContent>("articleTeaserImg");
+				}
+				<a href="@item.Url()">
+        			<img width="auto" height="300" src="@image.Url()"/>
+				</a>
+				
+			</div>
+
+		</div>
+	}
+
+

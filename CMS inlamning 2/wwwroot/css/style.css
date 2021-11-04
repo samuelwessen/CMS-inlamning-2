@@ -1,0 +1,12 @@
+/* Home */
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	grid-gap: 25px 25px;
+ }
+  .grid-item {
+	font-size: 1rem;
+ }
+        
