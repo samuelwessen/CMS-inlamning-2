@@ -263,10 +263,7 @@ UpgradeLog*.htm
 ServiceFabricBackup/
 *.rptproj.bak
 
-# SQL Server files
-*.mdf
-*.ldf
-*.ndf
+
 
 # Business Intelligence projects
 *.rdl.data
@@ -486,7 +483,3 @@ $RECYCLE.BIN/
 # Nuget package Umbraco.Cms.StaticAssets will copy them in during dotnet build
 **/wwwroot/umbraco/
 
-# SQL Server files
-*.mdf
-*.ldf
-*.ndf
